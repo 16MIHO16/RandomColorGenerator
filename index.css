@@ -1,0 +1,67 @@
+header{
+    height: 90px;
+    padding-right: 300px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+ul il{
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+header h1{
+    font-size: 30px;
+    color: rgb(0, 173, 173);
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.conteiner{
+    width: 600px;
+    height: 90px;
+    background-color: black;
+    border-radius: 16px;
+}
+
+.conteiner p{
+    padding-top: 22px;
+    margin-left: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+main button{
+    background: none;
+    width: 120px;
+    border-width: 3.5px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main button:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.95;
+}
+
+main button:active{
+    opacity: 0.75;
+}
+
+.buttons{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;  
+    display: flex;
+}
